@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cash view investment login</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			width: 95%;
+			height: 90vh;
+			display: flex;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			justify-content: center;
+			align-items: center;
+			box-shadow: 2px 2px 2px 2px black;
+			border-radius: 10px;
+		}
+
+
+		.container .image {
+			width: 50%;
+			height: inherit;
+			background-color: rebeccapurple;
+			
+			align-content: center;
+		}
+
+		.container .image img {
+			width: 50%;
+			height: 200px;
+			position: relative;
+			top: 25%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.container form {
+			width: 50%;
+			height: 400px;
+			
+			align-content: center;
+			padding: 30px;
+			
+		}
+
+		.container form h2 {
+			text-align: center;
+			padding: 10px;
+		}
+
+		form .input {
+			width: 100%;
+			height: 30px;
+			font-size: 12px;
+			text-transform: lowercase;
+			margin: 7px 5px 7px 0;
+			font-family: sans-serif;
+		}
+
+		form button {
+			width: 100%;
+			height: 40px;
+			background: rebeccapurple;
+			border: none;
+			outline: none;
+			font-size: 15px;
+			text-transform: capitalize;
+			color: white;
+			border-radius: 10px;
+			font-weight: 600;
+		}
+
+		.container button a{
+			color: white;
+			text-decoration: none;
+		}
+
+		.container p a {
+			text-decoration: none;
+		}
+
+		.container hr {
+			width: 50px;
+			margin-left: 250px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="image">
+			<img src="image/logimage.jpeg">
+		</div>
+
+		
+		<form>
+			<h2>Login</h2>
+			<br>
+			<hr>
+			<br>
+		   <label for="mail">Email address</label>
+		   <input class="input" type="text" id="mail" name="mail" placeholder="you@example.com">
+		   <label for="password">password</label>
+		   <input class="input" type="text" id="pword" name="pword" placeholder="Enter 6 character or more">
+
+		   <label><input type="checkbox"> Remember me</label>
+		   <button> <a href="">Login</a> </button>
+
+		   <p>Doesn't have an account yet? <a href="signup.html">Sign up</a> </p>
+	    </form>
+	
+	</div>
+
+
+</body>
+</html>
